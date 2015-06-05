@@ -10,4 +10,9 @@ _static
 _templates
 dist
 *.log
-
+/debian/python3-pyrabbit.*.debhelper
+/debian/python3-pyrabbit.*.log
+/debian/python3-pyrabbit.substvars
+/debian/python3-pyrabbit
+/debian/files
+/.pc

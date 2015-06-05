@@ -1,0 +1,11 @@
+Source: pyrabbit
+Maintainer: Nicolas Bigler <nicolas.bigler@vshn.ch>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, python3-nose2, python3-httplib2, debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: python3-pyrabbit
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-httplib2
+Description: A Pythonic interface to the RabbitMQ Management HTTP API 
