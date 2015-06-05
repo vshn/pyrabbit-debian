@@ -1,0 +1,13 @@
+.tox
+.idea
+.coverage
+*.swp
+*.pyc
+*egg-info*
+build
+_build
+_static
+_templates
+dist
+*.log
+
